@@ -378926,8 +378926,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-26",
       "listedAt": "2026-10-26T02:27:53.870Z",
-      "listingValidatedCommit": "5be276e785ff2dfbe254b650fa760e89496edfa0",
-      "listingValidatedAt": "2026-10-26T02:27:53.870Z",
+      "listingValidatedCommit": "2a6798f3625fff230e7153ba3966f277b961a3fc",
+      "listingValidatedAt": "2026-10-27T23:36:01.190Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -378936,35 +378936,14 @@
         "pluginIds": [
           "io.github.marlonazevedo.agent-pet"
         ],
-        "commit": "5be276e785ff2dfbe254b650fa760e89496edfa0",
-        "checkedAt": "2026-10-26T02:27:53.731Z",
+        "commit": "2a6798f3625fff230e7153ba3966f277b961a3fc",
+        "checkedAt": "2026-10-27T23:36:01.190Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "marlonazevedo/omarchy-retro-agent-pet",
-        "pluginIds": [
-          "io.github.marlonazevedo.agent-pet"
-        ],
-        "commit": "5be276e785ff2dfbe254b650fa760e89496edfa0",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-26T02:27:53.731Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-26T00:11:34.220Z",
-        "requestEventId": 34217781880,
-        "requestedAt": "2026-10-26T02:11:48Z",
-        "reviewedAt": "2026-10-26T02:27:53.731Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "io.github.marlonazevedo.agent-pet": {
@@ -378980,7 +378959,73 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "marlonazevedo/omarchy-retro-agent-pet",
+        "pluginIds": [
+          "io.github.marlonazevedo.agent-pet"
+        ],
+        "commit": "2a6798f3625fff230e7153ba3966f277b961a3fc",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-27T23:36:01.190Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-27T22:39:07.832Z",
+        "requestEventId": 34420862520,
+        "requestedAt": "2026-10-27T22:59:13Z",
+        "reviewedAt": "2026-10-27T23:36:01.190Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5be276e785ff2dfbe254b650fa760e89496edfa0",
+          "validatedAt": "2026-10-26T02:27:53.870Z",
+          "branch": "main",
+          "supersededAt": "2026-10-27T23:36:01.190Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "marlonazevedo/omarchy-retro-agent-pet",
+            "pluginIds": [
+              "io.github.marlonazevedo.agent-pet"
+            ],
+            "commit": "5be276e785ff2dfbe254b650fa760e89496edfa0",
+            "checkedAt": "2026-10-26T02:27:53.731Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "marlonazevedo/omarchy-retro-agent-pet",
+            "pluginIds": [
+              "io.github.marlonazevedo.agent-pet"
+            ],
+            "commit": "5be276e785ff2dfbe254b650fa760e89496edfa0",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-26T02:27:53.731Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-26T00:11:34.220Z",
+            "requestEventId": 34217781880,
+            "requestedAt": "2026-10-26T02:11:48Z",
+            "reviewedAt": "2026-10-26T02:27:53.731Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Gnosis80s/OmaTide",
