@@ -382385,6 +382385,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/axpico/omarchy-clock-agenda",
+      "type": "plugin-source",
+      "addedAt": "2026-10-27",
+      "listedAt": "2026-10-27T22:47:13.377Z",
+      "listingValidatedCommit": "3d494fbb3cf78f97864c8eb1fa4c615d9fcb49f3",
+      "listingValidatedAt": "2026-10-27T22:47:13.377Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "axpico/omarchy-clock-agenda",
+        "pluginIds": [
+          "axpico.clock"
+        ],
+        "commit": "3d494fbb3cf78f97864c8eb1fa4c615d9fcb49f3",
+        "checkedAt": "2026-10-27T22:47:13.228Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "axpico/omarchy-clock-agenda",
+        "pluginIds": [
+          "axpico.clock"
+        ],
+        "commit": "3d494fbb3cf78f97864c8eb1fa4c615d9fcb49f3",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-27T22:47:13.228Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-27T14:55:44.515Z",
+        "requestEventId": 34418878354,
+        "requestedAt": "2026-10-27T22:27:53Z",
+        "reviewedAt": "2026-10-27T22:47:13.228Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "axpico.clock": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
