@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T22:38:55.941Z",
+  "generatedAt": "2026-10-27T22:42:58.983Z",
   "stateSchemaVersion": 2,
   "mode": "production",
   "plugins": [
@@ -331036,6 +331036,55 @@
       "upstreamValidatedAt": "2026-10-27T22:34:51.172Z",
       "upstreamValidationVersion": 1,
       "upstreamSourceFingerprint": "d8591051d5ebd1700b656a1f2b4f267da15a6090ce19bc8b0a9c191145e4cbba",
+      "status": "Available"
+    },
+    {
+      "id": "ricardo-ti.pip-solver",
+      "name": "PiP Solver",
+      "description": "Makes every picture-in-picture window float, stay on top, keep the video aspect ratio, resize from its edges, and hold the screen awake while active.",
+      "author": "Ricardo Franco",
+      "version": "1.0.0",
+      "repo": "https://github.com/rfranco-ti/pip-solver",
+      "sourceType": "community",
+      "verificationStatus": "verified",
+      "verificationSnapshotStatus": "verified",
+      "verificationCoverage": "snapshot-verified",
+      "verificationBaselineVersion": "3",
+      "verificationCommit": "a062ad5cfbcb098d96f0ab6318b79cdbcfb5b8c8",
+      "verificationCheckedAt": "2026-10-27T22:42:58.053Z",
+      "manifestPath": "manifest.json",
+      "addedAt": "2026-10-27",
+      "listedAt": "2026-10-27T22:42:58.216Z",
+      "repositoryLayout": "root-plugin",
+      "installAvailable": true,
+      "installCommand": "omarchy plugin add https://github.com/rfranco-ti/pip-solver.git --enable",
+      "installNote": "Omarchy clones the current upstream repository, validates it locally, and only then installs and enables the plugin.",
+      "category": "System",
+      "tags": [
+        "media"
+      ],
+      "license": "MIT",
+      "stars": 0,
+      "repositoryUpdatedAt": "2026-10-27T18:06:22Z",
+      "repositoryRelease": {
+        "tag": "v1.0.0",
+        "url": "https://github.com/rfranco-ti/pip-solver/releases/tag/v1.0.0",
+        "publishedAt": "2026-10-27T18:06:30Z"
+      },
+      "accent": "amber",
+      "initials": "PS",
+      "kind": "Service",
+      "listingValidatedCommit": "a062ad5cfbcb098d96f0ab6318b79cdbcfb5b8c8",
+      "listingValidatedAt": "2026-10-27T22:42:58.216Z",
+      "listingValidatedBranch": "main",
+      "upstreamObservedCommit": "a062ad5cfbcb098d96f0ab6318b79cdbcfb5b8c8",
+      "upstreamObservedBranch": "main",
+      "upstreamCheckedAt": "2026-10-27T22:42:58.983Z",
+      "upstreamCheckStatus": "passed",
+      "upstreamValidatedCommit": "a062ad5cfbcb098d96f0ab6318b79cdbcfb5b8c8",
+      "upstreamValidatedAt": "2026-10-27T22:42:58.983Z",
+      "upstreamValidationVersion": 1,
+      "upstreamSourceFingerprint": "bfec9d21ff8991fb6c5ce401cd64f54798d1ee7ce9d99b523668a082c2bdca67",
       "status": "Available"
     },
     {
