@@ -383167,6 +383167,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/KamenDCZ/omarchy-focus-border",
+      "type": "plugin-source",
+      "addedAt": "2026-10-27",
+      "listedAt": "2026-10-27T23:54:59.308Z",
+      "listingValidatedCommit": "c4a8993a0a0dde43edccdf16a08e065cb1ccf7f9",
+      "listingValidatedAt": "2026-10-27T23:54:59.308Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kamendcz/omarchy-focus-border",
+        "pluginIds": [
+          "kamendcz.focus-border"
+        ],
+        "commit": "c4a8993a0a0dde43edccdf16a08e065cb1ccf7f9",
+        "checkedAt": "2026-10-27T23:54:59.212Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "kamendcz.focus-border": {
+          "category": "Appearance",
+          "tags": [
+            "hyprland",
+            "workspaces",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
