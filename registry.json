@@ -384357,6 +384357,65 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/KarPage/oma-year-planner",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T02:44:43.183Z",
+      "listingValidatedCommit": "67fcfcd7c00c8191ac0e67457ecf8463b024a31d",
+      "listingValidatedAt": "2026-10-28T02:44:43.183Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "karpage/oma-year-planner",
+        "pluginIds": [
+          "io.github.karpage.oma-year"
+        ],
+        "commit": "67fcfcd7c00c8191ac0e67457ecf8463b024a31d",
+        "checkedAt": "2026-10-28T02:44:43.007Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "karpage/oma-year-planner",
+        "pluginIds": [
+          "io.github.karpage.oma-year"
+        ],
+        "commit": "67fcfcd7c00c8191ac0e67457ecf8463b024a31d",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T02:44:43.007Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-28T02:16:53.800Z",
+        "requestEventId": 34433056143,
+        "requestedAt": "2026-10-28T02:36:38Z",
+        "reviewedAt": "2026-10-28T02:44:43.007Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.karpage.oma-year": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell",
+            "hyprland"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
