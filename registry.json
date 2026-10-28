@@ -384080,6 +384080,68 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/YardQuit/omarchy-megacmd",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T01:58:44.716Z",
+      "listingValidatedCommit": "062b834c6efdc3e8a0f0d25567a6f75c5f3c851b",
+      "listingValidatedAt": "2026-10-28T01:58:44.716Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "yardquit/omarchy-megacmd",
+        "pluginIds": [
+          "yardquit.mega"
+        ],
+        "commit": "062b834c6efdc3e8a0f0d25567a6f75c5f3c851b",
+        "checkedAt": "2026-10-28T01:58:44.550Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "yardquit/omarchy-megacmd",
+        "pluginIds": [
+          "yardquit.mega"
+        ],
+        "commit": "062b834c6efdc3e8a0f0d25567a6f75c5f3c851b",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T01:58:44.550Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "remote-build"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-28T01:49:05.856Z",
+        "requestEventId": 34431049427,
+        "requestedAt": "2026-10-28T01:58:11Z",
+        "reviewedAt": "2026-10-28T01:58:44.551Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "yardquit.mega": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
