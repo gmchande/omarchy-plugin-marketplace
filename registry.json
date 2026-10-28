@@ -286407,8 +286407,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-01",
       "listedAt": "2026-10-01T02:48:32.303Z",
-      "listingValidatedCommit": "407d82ba0671bdb4c1ba2e7920c3773439837965",
-      "listingValidatedAt": "2026-10-18T14:59:39.393Z",
+      "listingValidatedCommit": "f113397e795580e5517e5dde1a63342f2822eeef",
+      "listingValidatedAt": "2026-10-28T15:48:56.173Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -286417,8 +286417,8 @@
         "pluginIds": [
           "ubruckhaus.video-trans"
         ],
-        "commit": "407d82ba0671bdb4c1ba2e7920c3773439837965",
-        "checkedAt": "2026-10-18T14:59:39.393Z",
+        "commit": "f113397e795580e5517e5dde1a63342f2822eeef",
+        "checkedAt": "2026-10-28T15:48:56.173Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -286589,6 +286589,55 @@
             "reviewedAt": "2026-10-14T23:36:48.121Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "407d82ba0671bdb4c1ba2e7920c3773439837965",
+          "validatedAt": "2026-10-18T14:59:39.393Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T15:48:56.173Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "ubruckhaus/omarchy-video-trans",
+            "pluginIds": [
+              "ubruckhaus.video-trans"
+            ],
+            "commit": "407d82ba0671bdb4c1ba2e7920c3773439837965",
+            "checkedAt": "2026-10-18T14:59:39.393Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "installer",
+              "privilege"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "ubruckhaus/omarchy-video-trans",
+            "pluginIds": [
+              "ubruckhaus.video-trans"
+            ],
+            "commit": "407d82ba0671bdb4c1ba2e7920c3773439837965",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-18T14:59:39.393Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "package-manager",
+              "service-management",
+              "installer",
+              "privilege"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-18T00:17:12.934Z",
+            "requestEventId": 33577063481,
+            "requestedAt": "2026-10-18T14:59:13Z",
+            "reviewedAt": "2026-10-18T14:59:39.393Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -286597,10 +286646,10 @@
         "pluginIds": [
           "ubruckhaus.video-trans"
         ],
-        "commit": "407d82ba0671bdb4c1ba2e7920c3773439837965",
+        "commit": "f113397e795580e5517e5dde1a63342f2822eeef",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-18T14:59:39.393Z",
+        "baselineCheckedAt": "2026-10-28T15:48:56.173Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -286609,10 +286658,10 @@
           "installer",
           "privilege"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-18T00:17:12.934Z",
-        "requestEventId": 33577063481,
-        "requestedAt": "2026-10-18T14:59:13Z",
-        "reviewedAt": "2026-10-18T14:59:39.393Z",
+        "reviewedBaselineCheckedAt": "2026-10-28T10:47:33.923Z",
+        "requestEventId": 34492188579,
+        "requestedAt": "2026-10-28T15:44:02Z",
+        "reviewedAt": "2026-10-28T15:48:56.173Z",
         "reviewer": "HANCORE-linux"
       }
     },
