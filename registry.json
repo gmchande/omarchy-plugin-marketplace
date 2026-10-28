@@ -325498,8 +325498,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-06",
       "listedAt": "2026-10-06T14:04:05.124Z",
-      "listingValidatedCommit": "ec9f3a5bc3956da412f0ea0f7e00e85c3398bf9f",
-      "listingValidatedAt": "2026-10-06T14:04:05.124Z",
+      "listingValidatedCommit": "92ebba3fb23388aa7e464bd05c53f25978a04043",
+      "listingValidatedAt": "2026-10-28T10:55:12.492Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -325508,8 +325508,8 @@
         "pluginIds": [
           "crmne.moza"
         ],
-        "commit": "ec9f3a5bc3956da412f0ea0f7e00e85c3398bf9f",
-        "checkedAt": "2026-10-06T14:04:05.032Z",
+        "commit": "92ebba3fb23388aa7e464bd05c53f25978a04043",
+        "checkedAt": "2026-10-28T10:55:12.492Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -325520,31 +325520,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "crmne/omarchy-moza",
-        "pluginIds": [
-          "crmne.moza"
-        ],
-        "commit": "ec9f3a5bc3956da412f0ea0f7e00e85c3398bf9f",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-06T14:04:05.032Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "bundled-executable-binary",
-          "remote-build",
-          "installer",
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-06T14:00:33.709Z",
-        "requestEventId": 32605359109,
-        "requestedAt": "2026-10-06T14:03:24Z",
-        "reviewedAt": "2026-10-06T14:04:05.032Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "crmne.moza": {
@@ -325560,7 +325535,85 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "crmne/omarchy-moza",
+        "pluginIds": [
+          "crmne.moza"
+        ],
+        "commit": "92ebba3fb23388aa7e464bd05c53f25978a04043",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T10:55:12.492Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "bundled-executable-binary",
+          "remote-build",
+          "installer",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-28T10:11:41.692Z",
+        "requestEventId": 34464717402,
+        "requestedAt": "2026-10-28T10:46:23Z",
+        "reviewedAt": "2026-10-28T10:55:12.492Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ec9f3a5bc3956da412f0ea0f7e00e85c3398bf9f",
+          "validatedAt": "2026-10-06T14:04:05.124Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T10:55:12.492Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "crmne/omarchy-moza",
+            "pluginIds": [
+              "crmne.moza"
+            ],
+            "commit": "ec9f3a5bc3956da412f0ea0f7e00e85c3398bf9f",
+            "checkedAt": "2026-10-06T14:04:05.032Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "remote-build",
+              "installer",
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "crmne/omarchy-moza",
+            "pluginIds": [
+              "crmne.moza"
+            ],
+            "commit": "ec9f3a5bc3956da412f0ea0f7e00e85c3398bf9f",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-06T14:04:05.032Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "remote-build",
+              "installer",
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-06T14:00:33.709Z",
+            "requestEventId": 32605359109,
+            "requestedAt": "2026-10-06T14:03:24Z",
+            "reviewedAt": "2026-10-06T14:04:05.032Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dsecuma/omarchy-virustotal",
