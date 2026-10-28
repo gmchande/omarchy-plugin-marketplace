@@ -383623,8 +383623,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-27",
       "listedAt": "2026-10-27T22:22:50.594Z",
-      "listingValidatedCommit": "711b1b012904ed63f346e471cca0bc1fa7e7066c",
-      "listingValidatedAt": "2026-10-27T22:22:50.594Z",
+      "listingValidatedCommit": "83f932825e07a0fcd0ec46d57b9cd75b2d38d110",
+      "listingValidatedAt": "2026-10-28T13:47:06.655Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -383633,8 +383633,8 @@
         "pluginIds": [
           "io.github.beyonddreadful.omatrix"
         ],
-        "commit": "711b1b012904ed63f346e471cca0bc1fa7e7066c",
-        "checkedAt": "2026-10-27T22:22:50.448Z",
+        "commit": "83f932825e07a0fcd0ec46d57b9cd75b2d38d110",
+        "checkedAt": "2026-10-28T13:47:06.655Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -383649,7 +383649,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "711b1b012904ed63f346e471cca0bc1fa7e7066c",
+          "validatedAt": "2026-10-27T22:22:50.594Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T13:47:06.655Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "beyonddreadful/omarchy-omatrix",
+            "pluginIds": [
+              "io.github.beyonddreadful.omatrix"
+            ],
+            "commit": "711b1b012904ed63f346e471cca0bc1fa7e7066c",
+            "checkedAt": "2026-10-27T22:22:50.448Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/RajShimpi/omarchy-sports-hub",
