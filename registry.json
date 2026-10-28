@@ -384960,6 +384960,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/CIKR-Repos/omarchy-remote-access",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T08:30:46.916Z",
+      "listingValidatedCommit": "7c7309b27695204bdc6549c763fbe42b652868a0",
+      "listingValidatedAt": "2026-10-28T08:30:46.916Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cikr-repos/omarchy-remote-access",
+        "pluginIds": [
+          "cikr-repos.remote-access"
+        ],
+        "commit": "7c7309b27695204bdc6549c763fbe42b652868a0",
+        "checkedAt": "2026-10-28T08:30:46.771Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cikr-repos/omarchy-remote-access",
+        "pluginIds": [
+          "cikr-repos.remote-access"
+        ],
+        "commit": "7c7309b27695204bdc6549c763fbe42b652868a0",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T08:30:46.771Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-28T08:11:46.126Z",
+        "requestEventId": 34452922851,
+        "requestedAt": "2026-10-28T08:21:58Z",
+        "reviewedAt": "2026-10-28T08:30:46.771Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "cikr-repos.remote-access": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "security",
+            "workspaces"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
