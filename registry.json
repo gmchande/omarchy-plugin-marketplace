@@ -375036,8 +375036,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-21",
       "listedAt": "2026-10-21T23:47:01.781Z",
-      "listingValidatedCommit": "25e7bdaf9efff43c17055e25b45fa37b43dda470",
-      "listingValidatedAt": "2026-10-21T23:47:01.781Z",
+      "listingValidatedCommit": "c2445d1e422cb7f85e7ab7a397fecadaf37d8092",
+      "listingValidatedAt": "2026-10-28T12:48:06.342Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -375046,8 +375046,8 @@
         "pluginIds": [
           "io.github.qempexe.plume"
         ],
-        "commit": "25e7bdaf9efff43c17055e25b45fa37b43dda470",
-        "checkedAt": "2026-10-21T23:47:01.618Z",
+        "commit": "c2445d1e422cb7f85e7ab7a397fecadaf37d8092",
+        "checkedAt": "2026-10-28T12:48:06.341Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -375063,7 +375063,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "25e7bdaf9efff43c17055e25b45fa37b43dda470",
+          "validatedAt": "2026-10-21T23:47:01.781Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T12:48:06.342Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "qempexe/omarchy-plume",
+            "pluginIds": [
+              "io.github.qempexe.plume"
+            ],
+            "commit": "25e7bdaf9efff43c17055e25b45fa37b43dda470",
+            "checkedAt": "2026-10-21T23:47:01.618Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/dmkenney/omarchy-keylight-usb",
