@@ -380078,8 +380078,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-26",
       "listedAt": "2026-10-26T09:05:30.975Z",
-      "listingValidatedCommit": "664c382c8147765a902ef73c2c7f7d14c2893d2e",
-      "listingValidatedAt": "2026-10-26T09:05:30.975Z",
+      "listingValidatedCommit": "56b4bc13320d709e443d38eba62726efde084fb9",
+      "listingValidatedAt": "2026-10-28T09:28:37.003Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -380088,8 +380088,8 @@
         "pluginIds": [
           "hello-lock"
         ],
-        "commit": "664c382c8147765a902ef73c2c7f7d14c2893d2e",
-        "checkedAt": "2026-10-26T09:05:30.850Z",
+        "commit": "56b4bc13320d709e443d38eba62726efde084fb9",
+        "checkedAt": "2026-10-28T09:28:37.003Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -380104,7 +380104,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "664c382c8147765a902ef73c2c7f7d14c2893d2e",
+          "validatedAt": "2026-10-26T09:05:30.975Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T09:28:37.003Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "denonmaryland/hello-lock",
+            "pluginIds": [
+              "hello-lock"
+            ],
+            "commit": "664c382c8147765a902ef73c2c7f7d14c2893d2e",
+            "checkedAt": "2026-10-26T09:05:30.850Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/thealejandro/omarchy-island",
