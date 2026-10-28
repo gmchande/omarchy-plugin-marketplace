@@ -122765,8 +122765,8 @@
       "type": "plugin-source",
       "addedAt": "2026-08-31",
       "listedAt": "2026-08-31T13:59:42.917Z",
-      "listingValidatedCommit": "de7f6a64e3bed4326ec4696b05c6e466b9b8da6f",
-      "listingValidatedAt": "2026-10-27T01:01:25.657Z",
+      "listingValidatedCommit": "dca6a69b505d4a86f19839bc8f95776f30afb0a1",
+      "listingValidatedAt": "2026-10-28T12:41:35.074Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -122775,8 +122775,8 @@
         "pluginIds": [
           "min-launcher"
         ],
-        "commit": "de7f6a64e3bed4326ec4696b05c6e466b9b8da6f",
-        "checkedAt": "2026-10-27T01:01:25.657Z",
+        "commit": "dca6a69b505d4a86f19839bc8f95776f30afb0a1",
+        "checkedAt": "2026-10-28T12:41:35.074Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -122826,6 +122826,26 @@
             ],
             "commit": "f28f23119f46b554321391acf2b2f57eb9207efd",
             "checkedAt": "2026-09-04T09:22:25.821Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "de7f6a64e3bed4326ec4696b05c6e466b9b8da6f",
+          "validatedAt": "2026-10-27T01:01:25.657Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T12:41:35.074Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "maiosx/min-launcher",
+            "pluginIds": [
+              "min-launcher"
+            ],
+            "commit": "de7f6a64e3bed4326ec4696b05c6e466b9b8da6f",
+            "checkedAt": "2026-10-27T01:01:25.657Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
