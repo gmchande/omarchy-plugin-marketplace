@@ -376437,8 +376437,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-25",
       "listedAt": "2026-10-25T21:34:57.442Z",
-      "listingValidatedCommit": "81ae39a263821d9ac2af34dec7661b4278a69802",
-      "listingValidatedAt": "2026-10-28T07:52:58.959Z",
+      "listingValidatedCommit": "4339d6ff33fc12c68d72d3825aacf59c3b04d2e2",
+      "listingValidatedAt": "2026-10-28T13:35:04.779Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -376447,8 +376447,8 @@
         "pluginIds": [
           "beyond.aula-f75"
         ],
-        "commit": "81ae39a263821d9ac2af34dec7661b4278a69802",
-        "checkedAt": "2026-10-28T07:52:58.959Z",
+        "commit": "4339d6ff33fc12c68d72d3825aacf59c3b04d2e2",
+        "checkedAt": "2026-10-28T13:35:04.779Z",
         "outcome": "needs-fixes",
         "enforcementMode": "selective",
         "findings": [
@@ -376586,6 +376586,61 @@
             "reviewedAt": "2026-10-27T17:57:47.004Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "81ae39a263821d9ac2af34dec7661b4278a69802",
+          "validatedAt": "2026-10-28T07:52:58.959Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T13:35:04.779Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "beyonddreadful/omarchy-aula-f75-max-accent",
+            "pluginIds": [
+              "beyond.aula-f75"
+            ],
+            "commit": "81ae39a263821d9ac2af34dec7661b4278a69802",
+            "checkedAt": "2026-10-28T07:52:58.959Z",
+            "outcome": "needs-fixes",
+            "enforcementMode": "selective",
+            "findings": [
+              "remote-git-execution-unpinned"
+            ],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "package-manager",
+              "installer",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "beyonddreadful/omarchy-aula-f75-max-accent",
+            "pluginIds": [
+              "beyond.aula-f75"
+            ],
+            "commit": "81ae39a263821d9ac2af34dec7661b4278a69802",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-28T07:52:58.959Z",
+            "baselineOutcome": "needs-fixes",
+            "findings": [
+              "remote-git-execution-unpinned"
+            ],
+            "capabilities": [
+              "privilege",
+              "remote-build",
+              "package-manager",
+              "installer",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-27T22:30:34.246Z",
+            "requestEventId": 34450368425,
+            "requestedAt": "2026-10-28T07:46:40Z",
+            "reviewedAt": "2026-10-28T07:52:58.959Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -376594,10 +376649,10 @@
         "pluginIds": [
           "beyond.aula-f75"
         ],
-        "commit": "81ae39a263821d9ac2af34dec7661b4278a69802",
+        "commit": "4339d6ff33fc12c68d72d3825aacf59c3b04d2e2",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-28T07:52:58.959Z",
+        "baselineCheckedAt": "2026-10-28T13:35:04.779Z",
         "baselineOutcome": "needs-fixes",
         "findings": [
           "remote-git-execution-unpinned"
@@ -376609,10 +376664,10 @@
           "installer",
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-27T22:30:34.246Z",
-        "requestEventId": 34450368425,
-        "requestedAt": "2026-10-28T07:46:40Z",
-        "reviewedAt": "2026-10-28T07:52:58.959Z",
+        "reviewedBaselineCheckedAt": "2026-10-28T08:46:53.183Z",
+        "requestEventId": 34479030389,
+        "requestedAt": "2026-10-28T13:34:29Z",
+        "reviewedAt": "2026-10-28T13:35:04.779Z",
         "reviewer": "HANCORE-linux"
       }
     },
