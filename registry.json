@@ -384416,6 +384416,71 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/PushMotta/omarchy-penna",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T02:48:50.830Z",
+      "listingValidatedCommit": "a06d704c3a24a45db661fd646185de6a93a879f1",
+      "listingValidatedAt": "2026-10-28T02:48:50.830Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pushmotta/omarchy-penna",
+        "pluginIds": [
+          "io.github.pushmotta.penna"
+        ],
+        "commit": "a06d704c3a24a45db661fd646185de6a93a879f1",
+        "checkedAt": "2026-10-28T02:48:50.669Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "pushmotta/omarchy-penna",
+        "pluginIds": [
+          "io.github.pushmotta.penna"
+        ],
+        "commit": "a06d704c3a24a45db661fd646185de6a93a879f1",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T02:48:50.669Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager",
+          "service-management"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-27T09:39:02.515Z",
+        "requestEventId": 34433058397,
+        "requestedAt": "2026-10-28T02:36:40Z",
+        "reviewedAt": "2026-10-28T02:48:50.669Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.pushmotta.penna": {
+          "category": "Hardware",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
