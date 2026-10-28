@@ -383754,6 +383754,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/GaboEI/omarchy-notification-center",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T00:51:32.899Z",
+      "listingValidatedCommit": "7ec034b7cc4feb99bd356c60162ac99a39ec74c5",
+      "listingValidatedAt": "2026-10-28T00:51:32.899Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "gaboei/omarchy-notification-center",
+        "pluginIds": [
+          "gabodev.notification-center"
+        ],
+        "commit": "7ec034b7cc4feb99bd356c60162ac99a39ec74c5",
+        "checkedAt": "2026-10-28T00:51:32.719Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "gabodev.notification-center": {
+          "category": "Desktop",
+          "tags": [
+            "bar",
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
