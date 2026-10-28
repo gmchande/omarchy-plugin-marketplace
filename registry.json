@@ -386498,6 +386498,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/haplo/omarchy-venice",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T15:31:14.087Z",
+      "listingValidatedCommit": "110eec6130047f4311f3c6d5edf76942b75e3283",
+      "listingValidatedAt": "2026-10-28T15:31:14.087Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "haplo/omarchy-venice",
+        "pluginIds": [
+          "net.fidelramos.venice"
+        ],
+        "commit": "110eec6130047f4311f3c6d5edf76942b75e3283",
+        "checkedAt": "2026-10-28T15:31:13.918Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "net.fidelramos.venice": {
+          "category": "Widgets",
+          "tags": [
+            "ai"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
