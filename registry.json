@@ -384697,6 +384697,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Solo-Web-Works/OmaSolid",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T07:56:55.651Z",
+      "listingValidatedCommit": "045ce5ec2e275ee6a5d56c94d5b7e73b1f0a1a8b",
+      "listingValidatedAt": "2026-10-28T07:56:55.651Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "solo-web-works/omasolid",
+        "pluginIds": [
+          "ksolomon.omasolid"
+        ],
+        "commit": "045ce5ec2e275ee6a5d56c94d5b7e73b1f0a1a8b",
+        "checkedAt": "2026-10-28T07:56:55.545Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "ksolomon.omasolid": {
+          "category": "Productivity",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
