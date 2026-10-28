@@ -384548,6 +384548,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/xvvhang/omarchy-herdr-theme-sync",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T03:04:55.964Z",
+      "listingValidatedCommit": "d6b9e62185b6f83925f8b10426760cb8f94e4297",
+      "listingValidatedAt": "2026-10-28T03:04:55.964Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "xvvhang/omarchy-herdr-theme-sync",
+        "pluginIds": [
+          "xvvhang.herdr-theme-sync"
+        ],
+        "commit": "d6b9e62185b6f83925f8b10426760cb8f94e4297",
+        "checkedAt": "2026-10-28T03:04:55.838Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "xvvhang.herdr-theme-sync": {
+          "category": "Appearance",
+          "tags": [
+            "quickshell",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
