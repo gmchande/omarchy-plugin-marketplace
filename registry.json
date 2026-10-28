@@ -383602,6 +383602,69 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/CIKR-Repos/omarchy-anyconnect-sso",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T00:34:39.915Z",
+      "listingValidatedCommit": "6bc91160db4d2fc4858f75e8bcbc82a152bfcc86",
+      "listingValidatedAt": "2026-10-28T00:34:39.915Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "cikr-repos/omarchy-anyconnect-sso",
+        "pluginIds": [
+          "cikr-repos.anyconnect-sso"
+        ],
+        "commit": "6bc91160db4d2fc4858f75e8bcbc82a152bfcc86",
+        "checkedAt": "2026-10-28T00:34:39.753Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "cikr-repos/omarchy-anyconnect-sso",
+        "pluginIds": [
+          "cikr-repos.anyconnect-sso"
+        ],
+        "commit": "6bc91160db4d2fc4858f75e8bcbc82a152bfcc86",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T00:34:39.753Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager",
+          "privilege"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-27T23:41:40.611Z",
+        "requestEventId": 34424578054,
+        "requestedAt": "2026-10-27T23:58:50Z",
+        "reviewedAt": "2026-10-28T00:34:39.753Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "cikr-repos.anyconnect-sso": {
+          "category": "Widgets",
+          "tags": [
+            "vpn",
+            "bar",
+            "security"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
