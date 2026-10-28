@@ -383302,6 +383302,40 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/CloudDown/fast-lid",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T00:06:55.124Z",
+      "listingValidatedCommit": "b5fe9b874d42f6f65c88f26f3a1624710aff27cb",
+      "listingValidatedAt": "2026-10-28T00:06:55.124Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "clouddown/fast-lid",
+        "pluginIds": [
+          "clouddown.fast-lid"
+        ],
+        "commit": "b5fe9b874d42f6f65c88f26f3a1624710aff27cb",
+        "checkedAt": "2026-10-28T00:06:54.974Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "clouddown.fast-lid": {
+          "category": "System",
+          "tags": [
+            "bar",
+            "power-management",
+            "system"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
