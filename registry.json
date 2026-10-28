@@ -384301,6 +384301,62 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/Dankestrick/OmaCircuitLab",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T02:40:32.315Z",
+      "listingValidatedCommit": "7f394796d592dd5881d0cc2c95ae19640ff99c10",
+      "listingValidatedAt": "2026-10-28T02:40:32.315Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "dankestrick/omacircuitlab",
+        "pluginIds": [
+          "io.github.dankestrick.omacircuitlab"
+        ],
+        "commit": "7f394796d592dd5881d0cc2c95ae19640ff99c10",
+        "checkedAt": "2026-10-28T02:40:32.170Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "dankestrick/omacircuitlab",
+        "pluginIds": [
+          "io.github.dankestrick.omacircuitlab"
+        ],
+        "commit": "7f394796d592dd5881d0cc2c95ae19640ff99c10",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T02:40:32.170Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-28T02:16:45.592Z",
+        "requestEventId": 34433054030,
+        "requestedAt": "2026-10-28T02:36:35Z",
+        "reviewedAt": "2026-10-28T02:40:32.170Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.dankestrick.omacircuitlab": {
+          "category": "Other",
+          "tags": [
+            "education",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
