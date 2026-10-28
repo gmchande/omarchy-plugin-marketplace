@@ -384268,6 +384268,39 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/Pauwelz/whisker",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T02:37:02.291Z",
+      "listingValidatedCommit": "8cfce54a2900956fe18c367db0f7ec4f24c90dca",
+      "listingValidatedAt": "2026-10-28T02:37:02.291Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "pauwelz/whisker",
+        "pluginIds": [
+          "pauwelz.whisker"
+        ],
+        "commit": "8cfce54a2900956fe18c367db0f7ec4f24c90dca",
+        "checkedAt": "2026-10-28T02:37:02.197Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "pauwelz.whisker": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
