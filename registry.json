@@ -200040,8 +200040,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-16",
       "listedAt": "2026-09-16T01:01:04.832Z",
-      "listingValidatedCommit": "23c1b0b74b2f5fae4535819fb21cec4291a584de",
-      "listingValidatedAt": "2026-09-16T01:01:04.832Z",
+      "listingValidatedCommit": "04ca2658f23a02739b6aad5e3a893ee33f0b5178",
+      "listingValidatedAt": "2026-10-28T09:00:00.954Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -200050,8 +200050,8 @@
         "pluginIds": [
           "brenoperucchi.omasession"
         ],
-        "commit": "23c1b0b74b2f5fae4535819fb21cec4291a584de",
-        "checkedAt": "2026-09-16T01:01:04.747Z",
+        "commit": "04ca2658f23a02739b6aad5e3a893ee33f0b5178",
+        "checkedAt": "2026-10-28T09:00:00.954Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -200060,29 +200060,6 @@
           "privilege",
           "installer"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "brenoperucchi/omasession",
-        "pluginIds": [
-          "brenoperucchi.omasession"
-        ],
-        "commit": "23c1b0b74b2f5fae4535819fb21cec4291a584de",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-09-16T01:01:04.747Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "service-management",
-          "privilege",
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-09-16T00:12:36.636Z",
-        "requestEventId": 31213089306,
-        "requestedAt": "2026-09-16T00:57:35Z",
-        "reviewedAt": "2026-09-16T01:01:04.747Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "brenoperucchi.omasession": {
@@ -200094,7 +200071,79 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "brenoperucchi/omasession",
+        "pluginIds": [
+          "brenoperucchi.omasession"
+        ],
+        "commit": "04ca2658f23a02739b6aad5e3a893ee33f0b5178",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T09:00:00.954Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "privilege",
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-27T16:45:57.605Z",
+        "requestEventId": 34455736319,
+        "requestedAt": "2026-10-28T08:59:28Z",
+        "reviewedAt": "2026-10-28T09:00:00.954Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "23c1b0b74b2f5fae4535819fb21cec4291a584de",
+          "validatedAt": "2026-09-16T01:01:04.832Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T09:00:00.954Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "brenoperucchi/omasession",
+            "pluginIds": [
+              "brenoperucchi.omasession"
+            ],
+            "commit": "23c1b0b74b2f5fae4535819fb21cec4291a584de",
+            "checkedAt": "2026-09-16T01:01:04.747Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "brenoperucchi/omasession",
+            "pluginIds": [
+              "brenoperucchi.omasession"
+            ],
+            "commit": "23c1b0b74b2f5fae4535819fb21cec4291a584de",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-09-16T01:01:04.747Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "service-management",
+              "privilege",
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-09-16T00:12:36.636Z",
+            "requestEventId": 31213089306,
+            "requestedAt": "2026-09-16T00:57:35Z",
+            "reviewedAt": "2026-09-16T01:01:04.747Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/irhop/omarchy-github-monitor",
