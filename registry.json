@@ -356826,8 +356826,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-16",
       "listedAt": "2026-10-16T17:21:27.920Z",
-      "listingValidatedCommit": "2f1dcb5877eb7ef57ea8c990b9893028f1b731fb",
-      "listingValidatedAt": "2026-10-21T20:46:26.972Z",
+      "listingValidatedCommit": "34d0dcd43101e6d4118939bf379b3e9e4d04466e",
+      "listingValidatedAt": "2026-10-27T23:58:21.652Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -356836,8 +356836,8 @@
         "pluginIds": [
           "gruut.megamenu"
         ],
-        "commit": "2f1dcb5877eb7ef57ea8c990b9893028f1b731fb",
-        "checkedAt": "2026-10-21T20:46:26.972Z",
+        "commit": "34d0dcd43101e6d4118939bf379b3e9e4d04466e",
+        "checkedAt": "2026-10-27T23:58:21.652Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -356855,27 +356855,6 @@
           ],
           "manifestPath": "manifest.json"
         }
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "morganczech/omarchy-megamenu",
-        "pluginIds": [
-          "gruut.megamenu"
-        ],
-        "commit": "2f1dcb5877eb7ef57ea8c990b9893028f1b731fb",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-21T20:46:26.972Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-21T20:18:23.422Z",
-        "requestEventId": 33886215252,
-        "requestedAt": "2026-10-21T20:29:13Z",
-        "reviewedAt": "2026-10-21T20:46:26.972Z",
-        "reviewer": "HANCORE-linux"
       },
       "listingValidationHistory": [
         {
@@ -356920,8 +356899,72 @@
             "reviewedAt": "2026-10-16T17:21:27.782Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "2f1dcb5877eb7ef57ea8c990b9893028f1b731fb",
+          "validatedAt": "2026-10-21T20:46:26.972Z",
+          "branch": "main",
+          "supersededAt": "2026-10-27T23:58:21.652Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "morganczech/omarchy-megamenu",
+            "pluginIds": [
+              "gruut.megamenu"
+            ],
+            "commit": "2f1dcb5877eb7ef57ea8c990b9893028f1b731fb",
+            "checkedAt": "2026-10-21T20:46:26.972Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "morganczech/omarchy-megamenu",
+            "pluginIds": [
+              "gruut.megamenu"
+            ],
+            "commit": "2f1dcb5877eb7ef57ea8c990b9893028f1b731fb",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-21T20:46:26.972Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-21T20:18:23.422Z",
+            "requestEventId": 33886215252,
+            "requestedAt": "2026-10-21T20:29:13Z",
+            "reviewedAt": "2026-10-21T20:46:26.972Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
-      ]
+      ],
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "morganczech/omarchy-megamenu",
+        "pluginIds": [
+          "gruut.megamenu"
+        ],
+        "commit": "34d0dcd43101e6d4118939bf379b3e9e4d04466e",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-27T23:58:21.652Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "installer"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-27T23:16:18.385Z",
+        "requestEventId": 34422638716,
+        "requestedAt": "2026-10-27T23:26:51Z",
+        "reviewedAt": "2026-10-27T23:58:21.652Z",
+        "reviewer": "HANCORE-linux"
+      }
     },
     {
       "repo": "https://github.com/Shika34/fresque",
