@@ -384751,6 +384751,66 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/hussainanjar/omarchy-gcal",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T08:10:31.476Z",
+      "listingValidatedCommit": "dc256da6d037a0285c9b8c43795a136f4f2b21ae",
+      "listingValidatedAt": "2026-10-28T08:10:31.476Z",
+      "listingValidatedBranch": "master",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "hussainanjar/omarchy-gcal",
+        "pluginIds": [
+          "io.github.hussainanjar.gcal"
+        ],
+        "commit": "dc256da6d037a0285c9b8c43795a136f4f2b21ae",
+        "checkedAt": "2026-10-28T08:10:31.335Z",
+        "outcome": "review-required",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ]
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "hussainanjar/omarchy-gcal",
+        "pluginIds": [
+          "io.github.hussainanjar.gcal"
+        ],
+        "commit": "dc256da6d037a0285c9b8c43795a136f4f2b21ae",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T08:10:31.335Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-28T06:30:32.842Z",
+        "requestEventId": 34451836164,
+        "requestedAt": "2026-10-28T08:07:06Z",
+        "reviewedAt": "2026-10-28T08:10:31.335Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "plugins": {
+        "io.github.hussainanjar.gcal": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json",
+          "installation": {
+            "mode": "manual",
+            "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
+          }
+        }
+      }
     }
   ],
   "builtInSources": [
