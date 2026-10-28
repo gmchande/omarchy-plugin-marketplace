@@ -156349,8 +156349,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-06",
       "listedAt": "2026-09-06T17:51:41.020Z",
-      "listingValidatedCommit": "5a3ddeea94e59583f6875e2c873f78e19569eb89",
-      "listingValidatedAt": "2026-10-26T03:37:48.254Z",
+      "listingValidatedCommit": "6736ceed5863b54096e4093e326f7b2f0084d219",
+      "listingValidatedAt": "2026-10-28T15:21:56.918Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -156359,8 +156359,8 @@
         "pluginIds": [
           "crmne.omastats"
         ],
-        "commit": "5a3ddeea94e59583f6875e2c873f78e19569eb89",
-        "checkedAt": "2026-10-26T03:37:48.254Z",
+        "commit": "6736ceed5863b54096e4093e326f7b2f0084d219",
+        "checkedAt": "2026-10-28T15:21:56.918Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -156639,6 +156639,53 @@
             "reviewedAt": "2026-10-17T22:32:47.948Z",
             "reviewer": "HANCORE-linux"
           }
+        },
+        {
+          "commit": "5a3ddeea94e59583f6875e2c873f78e19569eb89",
+          "validatedAt": "2026-10-26T03:37:48.254Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T15:21:56.918Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "crmne/omastats",
+            "pluginIds": [
+              "crmne.omastats"
+            ],
+            "commit": "5a3ddeea94e59583f6875e2c873f78e19569eb89",
+            "checkedAt": "2026-10-26T03:37:48.254Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "privilege",
+              "service-management"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "crmne/omastats",
+            "pluginIds": [
+              "crmne.omastats"
+            ],
+            "commit": "5a3ddeea94e59583f6875e2c873f78e19569eb89",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-26T03:37:48.254Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "bundled-executable-binary",
+              "privilege",
+              "service-management"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-25T17:57:00.008Z",
+            "requestEventId": 34221676059,
+            "requestedAt": "2026-10-26T03:37:15Z",
+            "reviewedAt": "2026-10-26T03:37:48.254Z",
+            "reviewer": "HANCORE-linux"
+          }
         }
       ],
       "maintainerVerificationReview": {
@@ -156647,10 +156694,10 @@
         "pluginIds": [
           "crmne.omastats"
         ],
-        "commit": "5a3ddeea94e59583f6875e2c873f78e19569eb89",
+        "commit": "6736ceed5863b54096e4093e326f7b2f0084d219",
         "baselineVersion": "3",
         "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-26T03:37:48.254Z",
+        "baselineCheckedAt": "2026-10-28T15:21:56.918Z",
         "baselineOutcome": "review-required",
         "findings": [],
         "capabilities": [
@@ -156658,10 +156705,10 @@
           "privilege",
           "service-management"
         ],
-        "reviewedBaselineCheckedAt": "2026-10-25T17:57:00.008Z",
-        "requestEventId": 34221676059,
-        "requestedAt": "2026-10-26T03:37:15Z",
-        "reviewedAt": "2026-10-26T03:37:48.254Z",
+        "reviewedBaselineCheckedAt": "2026-10-28T10:31:39.760Z",
+        "requestEventId": 34489886697,
+        "requestedAt": "2026-10-28T15:21:11Z",
+        "reviewedAt": "2026-10-28T15:21:56.918Z",
         "reviewer": "HANCORE-linux"
       }
     },
