@@ -384811,6 +384811,38 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/kazuhidet/omarchy-usage-credits",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T08:14:35.749Z",
+      "listingValidatedCommit": "e9a129d6f1ba868a39b093fae8b3073fd89d53af",
+      "listingValidatedAt": "2026-10-28T08:14:35.749Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kazuhidet/omarchy-usage-credits",
+        "pluginIds": [
+          "kazu.usage-credits"
+        ],
+        "commit": "e9a129d6f1ba868a39b093fae8b3073fd89d53af",
+        "checkedAt": "2026-10-28T08:14:35.598Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "kazu.usage-credits": {
+          "category": "Widgets",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
