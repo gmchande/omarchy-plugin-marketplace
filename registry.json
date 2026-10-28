@@ -386194,6 +386194,39 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/RajShimpi/omarchy-cliphistory",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T14:18:29.318Z",
+      "listingValidatedCommit": "c93703b70cd89248dc78f8a47f01f06f8e4bbfe4",
+      "listingValidatedAt": "2026-10-28T14:18:29.318Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "rajshimpi/omarchy-cliphistory",
+        "pluginIds": [
+          "techspawn.cliphistory"
+        ],
+        "commit": "c93703b70cd89248dc78f8a47f01f06f8e4bbfe4",
+        "checkedAt": "2026-10-28T14:18:29.172Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "techspawn.cliphistory": {
+          "category": "Productivity",
+          "tags": [
+            "bar",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
