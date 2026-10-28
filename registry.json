@@ -382043,8 +382043,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-26",
       "listedAt": "2026-10-26T19:11:28.023Z",
-      "listingValidatedCommit": "93cc44afdfdcdf5647666ce0f9ce5704c2897b18",
-      "listingValidatedAt": "2026-10-26T19:11:28.023Z",
+      "listingValidatedCommit": "be632f0f0abd8d582e449e1dd0e25187fdc37181",
+      "listingValidatedAt": "2026-10-28T11:40:50.585Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -382053,8 +382053,8 @@
         "pluginIds": [
           "zonectl"
         ],
-        "commit": "93cc44afdfdcdf5647666ce0f9ce5704c2897b18",
-        "checkedAt": "2026-10-26T19:11:27.872Z",
+        "commit": "be632f0f0abd8d582e449e1dd0e25187fdc37181",
+        "checkedAt": "2026-10-28T11:40:50.585Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -382070,7 +382070,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "93cc44afdfdcdf5647666ce0f9ce5704c2897b18",
+          "validatedAt": "2026-10-26T19:11:28.023Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T11:40:50.585Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "apachaiz/omarchy-zonectl",
+            "pluginIds": [
+              "zonectl"
+            ],
+            "commit": "93cc44afdfdcdf5647666ce0f9ce5704c2897b18",
+            "checkedAt": "2026-10-26T19:11:27.872Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/636B65/omarchy-power",
