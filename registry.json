@@ -234603,8 +234603,8 @@
       "type": "plugin-source",
       "addedAt": "2026-09-22",
       "listedAt": "2026-09-22T04:29:10.971Z",
-      "listingValidatedCommit": "8ef96f42e3768b33fcd03799c7fbf89651fbf1c5",
-      "listingValidatedAt": "2026-09-22T04:29:10.971Z",
+      "listingValidatedCommit": "dbac460694814418f3e3c17d663588ae3a390cf6",
+      "listingValidatedAt": "2026-10-28T11:32:03.304Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -234613,8 +234613,8 @@
         "pluginIds": [
           "meviusisback.botty"
         ],
-        "commit": "8ef96f42e3768b33fcd03799c7fbf89651fbf1c5",
-        "checkedAt": "2026-09-22T04:29:10.886Z",
+        "commit": "dbac460694814418f3e3c17d663588ae3a390cf6",
+        "checkedAt": "2026-10-28T11:32:03.304Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -234630,7 +234630,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "8ef96f42e3768b33fcd03799c7fbf89651fbf1c5",
+          "validatedAt": "2026-09-22T04:29:10.971Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T11:32:03.304Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "meviusisback/botty",
+            "pluginIds": [
+              "meviusisback.botty"
+            ],
+            "commit": "8ef96f42e3768b33fcd03799c7fbf89651fbf1c5",
+            "checkedAt": "2026-09-22T04:29:10.886Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/hisnameismarco/OLauncher",
