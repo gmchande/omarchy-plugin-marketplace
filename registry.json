@@ -386227,6 +386227,38 @@
           "manifestPath": "manifest.json"
         }
       }
+    },
+    {
+      "repo": "https://github.com/kazuhidet/omarchy-clock-i18n",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T14:23:43.932Z",
+      "listingValidatedCommit": "c63ab23cdc9767e69c4089c90ba67aa99b0299c7",
+      "listingValidatedAt": "2026-10-28T14:23:43.932Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "kazuhidet/omarchy-clock-i18n",
+        "pluginIds": [
+          "kazu.clock-i18n"
+        ],
+        "commit": "c63ab23cdc9767e69c4089c90ba67aa99b0299c7",
+        "checkedAt": "2026-10-28T14:23:43.783Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "kazu.clock-i18n": {
+          "category": "Widgets",
+          "tags": [
+            "bar"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
