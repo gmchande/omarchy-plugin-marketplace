@@ -374934,8 +374934,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-25",
       "listedAt": "2026-10-25T19:47:33.311Z",
-      "listingValidatedCommit": "ae2e1df2f282b9595acb78c299b3bbe628618ed6",
-      "listingValidatedAt": "2026-10-25T19:47:33.311Z",
+      "listingValidatedCommit": "85fb3e4d7544fc94ef573e5c32f19e858befff27",
+      "listingValidatedAt": "2026-10-28T08:26:22.499Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -374944,39 +374944,16 @@
         "pluginIds": [
           "fractal.search"
         ],
-        "commit": "ae2e1df2f282b9595acb78c299b3bbe628618ed6",
-        "checkedAt": "2026-10-25T19:47:33.143Z",
+        "commit": "85fb3e4d7544fc94ef573e5c32f19e858befff27",
+        "checkedAt": "2026-10-28T08:26:22.498Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
         "capabilities": [
-          "installer",
           "service-management",
+          "installer",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "nigh8w0lf/fractal-search",
-        "pluginIds": [
-          "fractal.search"
-        ],
-        "commit": "ae2e1df2f282b9595acb78c299b3bbe628618ed6",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-25T19:47:33.143Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "installer",
-          "service-management",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-25T19:39:12.768Z",
-        "requestEventId": 34200185282,
-        "requestedAt": "2026-10-25T19:42:18Z",
-        "reviewedAt": "2026-10-25T19:47:33.143Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "fractal.search": {
@@ -374992,7 +374969,79 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "nigh8w0lf/fractal-search",
+        "pluginIds": [
+          "fractal.search"
+        ],
+        "commit": "85fb3e4d7544fc94ef573e5c32f19e858befff27",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T08:26:22.498Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "service-management",
+          "installer",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-28T03:35:13.285Z",
+        "requestEventId": 34452368991,
+        "requestedAt": "2026-10-28T08:14:26Z",
+        "reviewedAt": "2026-10-28T08:26:22.499Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "ae2e1df2f282b9595acb78c299b3bbe628618ed6",
+          "validatedAt": "2026-10-25T19:47:33.311Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T08:26:22.499Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "nigh8w0lf/fractal-search",
+            "pluginIds": [
+              "fractal.search"
+            ],
+            "commit": "ae2e1df2f282b9595acb78c299b3bbe628618ed6",
+            "checkedAt": "2026-10-25T19:47:33.143Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "service-management",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "nigh8w0lf/fractal-search",
+            "pluginIds": [
+              "fractal.search"
+            ],
+            "commit": "ae2e1df2f282b9595acb78c299b3bbe628618ed6",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-25T19:47:33.143Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "installer",
+              "service-management",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-25T19:39:12.768Z",
+            "requestEventId": 34200185282,
+            "requestedAt": "2026-10-25T19:42:18Z",
+            "reviewedAt": "2026-10-25T19:47:33.143Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/jcmarinn/Omarchy-QRG",
