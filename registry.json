@@ -340722,8 +340722,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-10",
       "listedAt": "2026-10-10T15:39:09.408Z",
-      "listingValidatedCommit": "0b10dffbcebde040138d12af597868a899294451",
-      "listingValidatedAt": "2026-10-10T15:39:09.408Z",
+      "listingValidatedCommit": "48f99eec36aa6218b8f0f94e5119e33f11ee2c2c",
+      "listingValidatedAt": "2026-10-28T12:27:54.358Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -340732,8 +340732,8 @@
         "pluginIds": [
           "io.github.rwilson131.music-assistant"
         ],
-        "commit": "0b10dffbcebde040138d12af597868a899294451",
-        "checkedAt": "2026-10-10T15:39:09.289Z",
+        "commit": "48f99eec36aa6218b8f0f94e5119e33f11ee2c2c",
+        "checkedAt": "2026-10-28T12:27:54.358Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -340749,7 +340749,29 @@
           ],
           "manifestPath": "manifest.json"
         }
-      }
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "0b10dffbcebde040138d12af597868a899294451",
+          "validatedAt": "2026-10-10T15:39:09.408Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T12:27:54.358Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "rwilson131/omarchy.music-assistant",
+            "pluginIds": [
+              "io.github.rwilson131.music-assistant"
+            ],
+            "commit": "0b10dffbcebde040138d12af597868a899294451",
+            "checkedAt": "2026-10-10T15:39:09.289Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/Neaxic/omagenda",
