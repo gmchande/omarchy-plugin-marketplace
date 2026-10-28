@@ -383398,6 +383398,40 @@
           }
         }
       }
+    },
+    {
+      "repo": "https://github.com/mozchops/omarchy-somafm",
+      "type": "plugin-source",
+      "addedAt": "2026-10-28",
+      "listedAt": "2026-10-28T00:14:36.752Z",
+      "listingValidatedCommit": "199d039175da0859ce1392aebb8319931eaebd58",
+      "listingValidatedAt": "2026-10-28T00:14:36.752Z",
+      "listingValidatedBranch": "main",
+      "automatedSecurityBaseline": {
+        "schemaVersion": 1,
+        "version": "3",
+        "repository": "mozchops/omarchy-somafm",
+        "pluginIds": [
+          "nick.somafm"
+        ],
+        "commit": "199d039175da0859ce1392aebb8319931eaebd58",
+        "checkedAt": "2026-10-28T00:14:36.653Z",
+        "outcome": "passed",
+        "enforcementMode": "selective",
+        "findings": [],
+        "capabilities": []
+      },
+      "plugins": {
+        "nick.somafm": {
+          "category": "Widgets",
+          "tags": [
+            "bar",
+            "media",
+            "quickshell"
+          ],
+          "manifestPath": "manifest.json"
+        }
+      }
     }
   ],
   "builtInSources": [
