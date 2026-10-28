@@ -384701,8 +384701,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-28",
       "listedAt": "2026-10-28T00:21:52.924Z",
-      "listingValidatedCommit": "5eca4f8b6aa17dba9dcf834a0f95e66866c9b40c",
-      "listingValidatedAt": "2026-10-28T00:21:52.924Z",
+      "listingValidatedCommit": "3a8f5a590e3ade3f9208d8fa446c66872abf9052",
+      "listingValidatedAt": "2026-10-28T14:14:11.055Z",
       "listingValidatedBranch": "main",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -384711,8 +384711,8 @@
         "pluginIds": [
           "lbssousa.omaskpass"
         ],
-        "commit": "5eca4f8b6aa17dba9dcf834a0f95e66866c9b40c",
-        "checkedAt": "2026-10-28T00:21:52.758Z",
+        "commit": "3a8f5a590e3ade3f9208d8fa446c66872abf9052",
+        "checkedAt": "2026-10-28T14:14:11.055Z",
         "outcome": "review-required",
         "enforcementMode": "selective",
         "findings": [],
@@ -384720,28 +384720,6 @@
           "privilege",
           "package-manager"
         ]
-      },
-      "maintainerVerificationReview": {
-        "schemaVersion": 1,
-        "repository": "lbssousa/omaskpass",
-        "pluginIds": [
-          "lbssousa.omaskpass"
-        ],
-        "commit": "5eca4f8b6aa17dba9dcf834a0f95e66866c9b40c",
-        "baselineVersion": "3",
-        "enforcementMode": "selective",
-        "baselineCheckedAt": "2026-10-28T00:21:52.758Z",
-        "baselineOutcome": "review-required",
-        "findings": [],
-        "capabilities": [
-          "privilege",
-          "package-manager"
-        ],
-        "reviewedBaselineCheckedAt": "2026-10-27T17:37:51.519Z",
-        "requestEventId": 34423793256,
-        "requestedAt": "2026-10-27T23:46:09Z",
-        "reviewedAt": "2026-10-28T00:21:52.758Z",
-        "reviewer": "HANCORE-linux"
       },
       "plugins": {
         "lbssousa.omaskpass": {
@@ -384756,7 +384734,76 @@
             "note": "This plugin requires additional setup before it can be enabled. Follow the upstream installation instructions."
           }
         }
-      }
+      },
+      "maintainerVerificationReview": {
+        "schemaVersion": 1,
+        "repository": "lbssousa/omaskpass",
+        "pluginIds": [
+          "lbssousa.omaskpass"
+        ],
+        "commit": "3a8f5a590e3ade3f9208d8fa446c66872abf9052",
+        "baselineVersion": "3",
+        "enforcementMode": "selective",
+        "baselineCheckedAt": "2026-10-28T14:14:11.055Z",
+        "baselineOutcome": "review-required",
+        "findings": [],
+        "capabilities": [
+          "privilege",
+          "package-manager"
+        ],
+        "reviewedBaselineCheckedAt": "2026-10-28T09:22:09.341Z",
+        "requestEventId": 34482861502,
+        "requestedAt": "2026-10-28T14:13:09Z",
+        "reviewedAt": "2026-10-28T14:14:11.055Z",
+        "reviewer": "HANCORE-linux"
+      },
+      "listingValidationHistory": [
+        {
+          "commit": "5eca4f8b6aa17dba9dcf834a0f95e66866c9b40c",
+          "validatedAt": "2026-10-28T00:21:52.924Z",
+          "branch": "main",
+          "supersededAt": "2026-10-28T14:14:11.055Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "lbssousa/omaskpass",
+            "pluginIds": [
+              "lbssousa.omaskpass"
+            ],
+            "commit": "5eca4f8b6aa17dba9dcf834a0f95e66866c9b40c",
+            "checkedAt": "2026-10-28T00:21:52.758Z",
+            "outcome": "review-required",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ]
+          },
+          "maintainerVerificationReview": {
+            "schemaVersion": 1,
+            "repository": "lbssousa/omaskpass",
+            "pluginIds": [
+              "lbssousa.omaskpass"
+            ],
+            "commit": "5eca4f8b6aa17dba9dcf834a0f95e66866c9b40c",
+            "baselineVersion": "3",
+            "enforcementMode": "selective",
+            "baselineCheckedAt": "2026-10-28T00:21:52.758Z",
+            "baselineOutcome": "review-required",
+            "findings": [],
+            "capabilities": [
+              "privilege",
+              "package-manager"
+            ],
+            "reviewedBaselineCheckedAt": "2026-10-27T17:37:51.519Z",
+            "requestEventId": 34423793256,
+            "requestedAt": "2026-10-27T23:46:09Z",
+            "reviewedAt": "2026-10-28T00:21:52.758Z",
+            "reviewer": "HANCORE-linux"
+          }
+        }
+      ]
     },
     {
       "repo": "https://github.com/CIKR-Repos/omarchy-anyconnect-sso",
