@@ -333354,8 +333354,8 @@
       "type": "plugin-source",
       "addedAt": "2026-10-08",
       "listedAt": "2026-10-08T13:52:36.008Z",
-      "listingValidatedCommit": "0757d858de99589f5367003188174a96455fd9cc",
-      "listingValidatedAt": "2026-10-12T00:57:02.792Z",
+      "listingValidatedCommit": "20f86e860ade7f59452e5fd42fc504e10f03a166",
+      "listingValidatedAt": "2026-10-28T13:54:08.718Z",
       "listingValidatedBranch": "master",
       "automatedSecurityBaseline": {
         "schemaVersion": 1,
@@ -333364,8 +333364,8 @@
         "pluginIds": [
           "io.github.qempexe.omatune"
         ],
-        "commit": "0757d858de99589f5367003188174a96455fd9cc",
-        "checkedAt": "2026-10-12T00:57:02.791Z",
+        "commit": "20f86e860ade7f59452e5fd42fc504e10f03a166",
+        "checkedAt": "2026-10-28T13:54:08.718Z",
         "outcome": "passed",
         "enforcementMode": "selective",
         "findings": [],
@@ -333421,6 +333421,26 @@
             ],
             "commit": "3e32b5966d05876f58fdf5d68d8c98d355d770ec",
             "checkedAt": "2026-10-08T17:57:21.726Z",
+            "outcome": "passed",
+            "enforcementMode": "selective",
+            "findings": [],
+            "capabilities": []
+          }
+        },
+        {
+          "commit": "0757d858de99589f5367003188174a96455fd9cc",
+          "validatedAt": "2026-10-12T00:57:02.792Z",
+          "branch": "master",
+          "supersededAt": "2026-10-28T13:54:08.718Z",
+          "automatedSecurityBaseline": {
+            "schemaVersion": 1,
+            "version": "3",
+            "repository": "qempexe/omarchy-omatune",
+            "pluginIds": [
+              "io.github.qempexe.omatune"
+            ],
+            "commit": "0757d858de99589f5367003188174a96455fd9cc",
+            "checkedAt": "2026-10-12T00:57:02.791Z",
             "outcome": "passed",
             "enforcementMode": "selective",
             "findings": [],
